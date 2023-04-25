@@ -13,6 +13,23 @@
   }
 }
 
+.App{
+  display:flex;
+  justify-content:center;
+  background-color: rgb(220, 71, 71);
+  padding-top:10%;
+
+}
+
+.card{
+  border:1px solid;
+  width :200px;
+  height:470px;
+  background-color:white;
+  padding-bottom:5px;
+  margin:auto;
+}
+
 .App-header {
   background-color: #282c34;
   min-height: 100vh;
