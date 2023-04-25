@@ -1,25 +1,34 @@
-import logo from './logo.svg';
+import React from 'react';
+import Card from './profile';
 import './App.css';
 
-function App() {
+const App=()=> {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
-}
+  
+<Card 
+          image="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRYHW3Vy1-oeLGeE7xoybQzImGHBOLp2zkekg&usqp=CAU"
+          designation="UI/UX DESIGNER"
+          name= "Neha Padhan"
+          jobDescription="lorem ipsum sit amet,consectetur adipiscing elit."
+      />
 
+      <Card
+          image="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTZ8ycrhd3biE0iE_uNgnvT9fEs4dFAk3gD3w&usqp=CAU"
+          designation="UI/UX DESIGNER"
+          name= "Piya Dev"
+          jobDescription= "lorem ipsum sit amet,consectetur adipiscing elit. "
+      />
+      
+      <Card
+          image= "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTL86nTC_4dT1NKXzmOzuAI4MGJCLW4t8s7Xg&usqp=CAU"
+          designation="UI/UX DESIGNER"
+          name="Smarath sharma"
+          jobDescription= "lorem ipsum sit amet,consectetur adipiscing elit. "
+      />
+  
+
+  </div>
+  );
+};
 export default App;

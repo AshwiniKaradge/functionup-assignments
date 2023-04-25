@@ -12,6 +12,19 @@
     animation: App-logo-spin infinite 20s linear;
   }
 }
+.App{
+  display: flex;
+  justify-content: center;
+  background-color: pink;
+  padding-top: 15%;
+
+}
+.profile-card{
+  margin:auto;
+ 
+
+}
+
 
 .App-header {
   background-color: #282c34;
