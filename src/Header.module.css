@@ -1,0 +1,36 @@
+@media screen and (max-width : 420px){
+
+    .navOptions{
+    
+        display: none;
+    
+    }
+    .menu{
+        
+        font-size: 5rem;
+        display:none;
+    
+    }
+    
+
+}
+
+
+@media screen and (min-width : 1024px){
+
+
+    .navOptions{
+        display : flex;
+        justify-content :  space-around;
+        align-items:top;
+        font-size: 2rem;
+        font-style: normal;
+        font-weight: bold;
+        color: rgb(11, 11, 11);
+        background-color: rgb(95, 244, 129);
+    }
+    .menu{
+        font-size: 5rem;
+    }
+
+}
