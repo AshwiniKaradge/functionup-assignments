@@ -9,6 +9,8 @@
 }
 .navbar__container h2{
     font-size: 30px;
+    color: red;
+    font-style: italic;
 }
 .navbar__container ul{
     display: flex;
