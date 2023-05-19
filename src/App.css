@@ -1,38 +1,62 @@
+
 .App {
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.question-card {
+  margin:auto;
+  background-color: rgb(227, 226, 226);
+  padding: 20px;
+  border-radius:16px;
+  color: rgb(120, 188, 225);
+   width: 80%;
+  height: auto;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+ul {
+  list-style: none;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+li {
+  background-color: rgb(131, 167, 207);
+  padding: 16px;
+  border: 3px solid rgb(214, 214, 214);
+  border-radius: 20px;
+  font-size: 20px;
+  margin-top: 8px;
+  margin-right: 100 px;
+  margin-left: 100 px; 
+  
 }
 
-.App-link {
-  color: #61dafb;
+.question-text {
+  color:rgb(27, 18, 52);
+  font-size: 24px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.final-result {
+  margin: 0 auto;
+  background-color: rgb(177, 144, 243);
+  padding: 16px;
+  border-radius:16px;
+  color: rgb(24, 38, 50);
+  width: 50%;
+  height: auto;
+  margin-top:64px;
 }
+
+button{
+
+  background-color: rgb(9, 20, 51);
+  border:none;
+  color:rgb(235, 235, 235);
+  padding: 20px 24px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  font-weight: bold;
+  border-radius: 24px;
+  
+}
+
